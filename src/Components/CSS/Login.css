@@ -5,6 +5,8 @@
     align-items: center;
     height: 100vh;
     width: 100vw;
+    background:url(/src/Components/Image/Ковер.jpg);
+    background-size:100%;
 }
 
 .lds-ellipsis {
@@ -70,4 +72,27 @@
     flex-direction: column;
     height: 100vh;
     width: 100vw;
+}
+.c{
+    width:200px;
+    text-align: center;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    height: 30px;
+    align-items: center;
+    border-color: rgb(29, 117, 159);
+    color: black;
+    outline: none;
+    
+}
+.b{
+color:white;
+background-color: black;
+width: 205px;
+height: 30px;
+border-radius: 15px;
+border-color: rgb(29, 117, 159);
+}
+input::placeholder{
+    color: rgb(0, 0, 0);
 }

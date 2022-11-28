@@ -54,9 +54,9 @@ export default function Login() {
     if(state==='using'){
         return(
             <div className='main-box'>
-                <input className='' value={login} onChange={handleChangeLogin}/>
-                <input className='' value={password} onChange={handleChangePassword}/>
-                <button className='' onClick={loginRequest}/>
+                <input className='c' value={login} onChange={handleChangeLogin} placeholder="Логин"/>
+                <input className='c' value={password} onChange={handleChangePassword} type="password" placeholder="Пароль"/>
+                <button className='b' onClick={loginRequest}>Вход</button>
             </div>
         )
     } else if(state==='loading'){
