@@ -8,6 +8,12 @@ import Plantings from "./Components/Home/Plantings";
 import Stock from "./Components/Home/Stock";
 import Employees from "./Components/Home/Employees";
 import Goods from "./Components/Home/Goods";
+import SetEmployee from "./Components/Admin/setEmployee";
+import SetGood from "./Components/Admin/setGood";
+import SetLetter from "./Components/Admin/setLetter";
+import SetOrder from "./Components/Admin/setOrder";
+import SetPlanting from "./Components/Admin/setPlanting";
+import SetToStock from "./Components/Admin/setToStock";
 
 export default function Routing() {
     return(
@@ -16,6 +22,13 @@ export default function Routing() {
             <Routes>
                 <Route path="/" element={<Login/>} />
                 <Route path="/admin" element={<Admin/>} />
+                <Route path="/admin/employee" element={<SetEmployee/>} />
+                <Route path="/admin/good" element={<SetGood/>} />
+                <Route path="/admin/letter" element={<SetLetter/>} />
+                <Route path="/admin/order" element={<SetOrder/>} />
+                <Route path="/admin/planting" element={<SetPlanting/>} />
+                <Route path="/admin/stock" element={<SetToStock/>} />
+
                 <Route path="/home" element={<Home/>} />
                 <Route path="/home/orders" element={<Orders/>} />
                 <Route path="/home/plantings" element={<Plantings/>} />

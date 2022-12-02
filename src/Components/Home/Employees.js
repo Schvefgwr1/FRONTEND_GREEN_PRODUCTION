@@ -58,7 +58,7 @@ export default function Employees() {
         return (
             <div>
                 <div className="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
-                    <h5 class="my-0 mr-md-auto font-weight-normal">Green Production</h5>
+                    <h5 className="my-0 mr-md-auto font-weight-normal">Green Production</h5>
 
                     <nav className="my-2 my-md-0 mr-md-3">
                         <a className="p-2 text-dark" href="/home">Home</a>
@@ -69,7 +69,7 @@ export default function Employees() {
                         <a className="p-2 text-dark" href="/home/plantings">Plantings</a>
                     </nav>
 
-                    <a class="btn btn-outline-primary" href="/">LogOut</a>
+                    <a className="btn btn-outline-primary" href="/">LogOut</a>
                 </div>
                 <h5>Employees</h5>
                 <table border="3" cellPadding="3">
