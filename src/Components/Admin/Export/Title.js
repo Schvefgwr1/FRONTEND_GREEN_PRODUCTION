@@ -15,7 +15,7 @@ export function MyTitle() {
                 <a className="p-2 text-dark" href="/admin/letter">Post Letter</a>
             </nav>
 
-            <a className="btn btn-outline-primary" href="/Users/Сева Счетов/Documents/GitHub/FRONTEND_GREEN_PRODUCTION/public">LogOut</a>
+            <a className="btn btn-outline-primary" href="/">LogOut</a>
         </div>
     )
 }

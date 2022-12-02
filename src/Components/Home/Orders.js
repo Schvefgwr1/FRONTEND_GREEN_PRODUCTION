@@ -5,6 +5,7 @@ import { Input } from 'antd';
 import { useCookies } from "react-cookie";
 import axios from "axios";
 import {useEffect} from "react";
+import {MyTitle} from "./Title";
 
 function ListGood({good}) {
     return (
@@ -82,21 +83,10 @@ export default function Orders() {
 
     if(state === 'using') {
         return (
-            <div>
-                <div className="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
-                    <h5 className="my-0 mr-md-auto font-weight-normal">Green Production</h5>
+            <div className="MAIN">
 
-                    <nav className="my-2 my-md-0 mr-md-3">
-                        <a className="p-2 text-dark" href="/home">Home</a>
-                        <a className="p-2 text-dark" href="/home/orders">Orders</a>
-                        <a className="p-2 text-dark" href="/home/goods">Goods</a>
-                        <a className="p-2 text-dark" href="/home/employees">Employees</a>
-                        <a className="p-2 text-dark" href="/home/stock">Stock</a>
-                        <a className="p-2 text-dark" href="/home/plantings">Plantings</a>
-                    </nav>
+                {MyTitle()}
 
-                    <a className="btn btn-outline-primary" href="/">LogOut</a>
-                </div>
                 <h5>Orders</h5>
                 <table border="3" cellPadding="3">
                     <tr>

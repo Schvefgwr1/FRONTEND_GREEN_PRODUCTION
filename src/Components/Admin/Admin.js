@@ -6,7 +6,7 @@ import {MyTitle} from "./Export/Title";
 
 export default function Admin() {
     return(
-        <div>
+        <div className="MAIN">
 
             {MyTitle()}
 
