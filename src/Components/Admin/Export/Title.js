@@ -13,6 +13,7 @@ export function MyTitle() {
                 <a className="p-2 text-dark" href="/admin/stock">Post to Stock</a>
                 <a className="p-2 text-dark" href="/admin/planting">Post Planting</a>
                 <a className="p-2 text-dark" href="/admin/letter">Post Letter</a>
+                <a className="p-2 text-dark" href="/admin/call_procedure">Call Procedures</a>
             </nav>
 
             <a className="btn btn-outline-primary" href="/">LogOut</a>

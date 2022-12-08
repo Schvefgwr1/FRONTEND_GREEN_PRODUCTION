@@ -24,8 +24,8 @@ export default function Login() {
         setState('loading');
         let url = 'http://localhost:8000/api/' + 'user';
         let data = {
-            login: login,
-            password: password,
+            'login': login,
+            'password': password,
         }
         let headers = {
             headers:{

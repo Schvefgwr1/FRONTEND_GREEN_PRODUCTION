@@ -14,6 +14,7 @@ import SetLetter from "./Components/Admin/setLetter";
 import SetOrder from "./Components/Admin/setOrder";
 import SetPlanting from "./Components/Admin/setPlanting";
 import SetToStock from "./Components/Admin/setToStock";
+import CallProcedure from "./Components/Admin/CallProcedure";
 
 export default function Routing() {
     return(
@@ -28,6 +29,7 @@ export default function Routing() {
                 <Route path="/admin/order" element={<SetOrder/>} />
                 <Route path="/admin/planting" element={<SetPlanting/>} />
                 <Route path="/admin/stock" element={<SetToStock/>} />
+                <Route path="/admin/call_procedure" element={<CallProcedure/>} />
 
                 <Route path="/home" element={<Home/>} />
                 <Route path="/home/orders" element={<Orders/>} />
